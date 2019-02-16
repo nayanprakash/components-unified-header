@@ -9,8 +9,7 @@
   },
   "scripts": {
     "start": "webpack --watch",
-    "build": "webpack",
-    "postinstall":"npm run build"
+    "build": "webpack"
   },
   "author": {
     "name": "Nayan Prakash"
