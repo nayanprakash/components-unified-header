@@ -1,0 +1,42 @@
+{
+  "name": "@procurenetworks/components-unified-header",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ProCore unified header component",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.4.0"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "postinstall":"npm run build"
+  },
+  "author": {
+    "name": "Nayan Prakash"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "jquery": "^3.3.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-image": "^2.0.0",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
+    "reactstrap": "^7.1.0",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.2.3",
+    "webpack": "^4.29.3"
+  }
+}
